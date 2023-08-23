@@ -1,0 +1,40 @@
+* {
+    color: rgb(0, 0, 0);
+    font-family: 'Saira', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+section {
+    background-color: white;
+}
+
+p {
+    text-indent: 2em;
+}
+
+@media (max-width: 480px) {
+    body {
+        margin: .1em;
+        
+    }
+    
+    section {
+        margin: 2em;
+        padding: 2em;
+    }
+}
+
+@media (min-width: 481px) {
+    body {
+        margin: .9em;
+        
+    }
+    
+    section {
+        margin: 2.5em;
+        padding: 1.5em;
+    }
+}
